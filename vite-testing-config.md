@@ -3,15 +3,15 @@
 
 1. Instalaciones (Typescript):
 ```
-npm i --dev jest babel-jest @babel/preset-env @babel/preset-react 
-npm i --dev @testing-library/react @types/jest jest-environment-jsdom
-npm i --save-dev @babel/preset-typescript
-npm i --save-dev jest typescript ts-jest @types/jest
+yarn add -D jest babel-jest @babel/preset-env @babel/preset-react 
+yarn add -D @testing-library/react @types/jest jest-environment-jsdom
+yarn add -D @babel/preset-typescript
+yarn add -D jest typescript ts-jest @types/jest
 ```
 
 2. Opcional: Si usamos Fetch API en el proyecto:
 ```
-npm i --dev whatwg-fetch
+yarn add -D whatwg-fetch
 ```
 
 3. Actualizar los scripts del __package.json__
@@ -69,11 +69,11 @@ module.exports = {
 ```
 Luego instalamos la siguiente dependencia:
 ```
-npm i --dev identity-obj-proxy
+yarn add -D identity-obj-proxy
 ```
 7. Opcional: Configuración de Jest Extend que proporciona nuevos matchers.
 ```
-npm install --save-dev jest-extended
+yarn add -D jest-extended
 ```
 __testSetup.cjs__
 ```
@@ -95,5 +95,5 @@ import 'jest-extended';
 ```
 8. Opcional: Tener autocompletado de Jest:
 ```
-npm install -D @types/jest
+yarn add -D @types/jest
 ```
