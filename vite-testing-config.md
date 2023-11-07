@@ -6,7 +6,7 @@
 yarn add -D jest babel-jest @babel/preset-env @babel/preset-react 
 yarn add -D @testing-library/react @types/jest jest-environment-jsdom
 yarn add -D @babel/preset-typescript
-yarn add -D jest typescript ts-jest @types/jest
+yarn add -D typescript ts-jest
 ```
 
 2. Opcional: Si usamos Fetch API en el proyecto:
